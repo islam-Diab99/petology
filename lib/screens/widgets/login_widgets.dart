@@ -2,7 +2,10 @@
 import 'package:auth_buttons/auth_buttons.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+<<<<<<< HEAD
 import 'package:petology/screens/home/home_view.dart';
+=======
+>>>>>>> a84024f7b5cfa6aaa282c3e95ae394016a619cfd
 import 'package:petology/screens/login/viewmodel/login_cubit.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -22,10 +25,13 @@ class LoginArea extends StatelessWidget {
     return BlocConsumer<LoginCubit,LoginStates>(
       listener: (context,state){},
       builder: (context,state){
+<<<<<<< HEAD
         if (state is LoginSuccessState){
           navigateAndFinish(context, HomeView());
         }
 
+=======
+>>>>>>> a84024f7b5cfa6aaa282c3e95ae394016a619cfd
         if (state is FaceBookLoginSuccessState){
           launchUrl(state.uri);
         }

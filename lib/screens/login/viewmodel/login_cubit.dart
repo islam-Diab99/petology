@@ -1,6 +1,9 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/cupertino.dart';
+<<<<<<< HEAD
 import 'package:flutter/foundation.dart';
+=======
+>>>>>>> a84024f7b5cfa6aaa282c3e95ae394016a619cfd
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -24,9 +27,13 @@ class LoginCubit extends Cubit<LoginStates> {
 
     }).catchError((error) {
       emit(LoginErrorState(error.toString()));
+<<<<<<< HEAD
       if (kDebugMode) {
         print(error);
       }
+=======
+      print(error);
+>>>>>>> a84024f7b5cfa6aaa282c3e95ae394016a619cfd
     });
   }
 
@@ -39,9 +46,13 @@ class LoginCubit extends Cubit<LoginStates> {
 
 
     }).catchError((error) {
+<<<<<<< HEAD
       if (kDebugMode) {
         print(error);
       }
+=======
+      print(error);
+>>>>>>> a84024f7b5cfa6aaa282c3e95ae394016a619cfd
     });
 
   }

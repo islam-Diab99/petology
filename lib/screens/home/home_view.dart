@@ -1,10 +1,13 @@
 
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:petology/screens/widgets/shared_widgets.dart';
 
 import '../../shared/components.dart';
 import '../widgets/home_widgets.dart';
 
+=======
+>>>>>>> a84024f7b5cfa6aaa282c3e95ae394016a619cfd
 
 class HomeView extends StatelessWidget {
   const HomeView({Key? key}) : super(key: key);
@@ -12,6 +15,7 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+<<<<<<< HEAD
       backgroundColor: Colors.white,
       body: SingleChildScrollView(
         child: Column(
@@ -391,3 +395,9 @@ class HomeView extends StatelessWidget {
     );
   }
 }
+=======
+
+    );
+  }
+}
+>>>>>>> a84024f7b5cfa6aaa282c3e95ae394016a619cfd
